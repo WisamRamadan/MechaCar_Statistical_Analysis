@@ -29,3 +29,13 @@ F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
 * The results show that vehicle_length, vehicle_weight and ground_clearance variables/coefficients provided a non-random amount of variance to the mpg values in the dataset.
 * Th slope of the linear model is not considered to be zero because p-value is much less than the significance level 0.05.
 * The linear model predict mpg of MechaCar prototypes effectively because r-squared value is 0.7 which indicated a strong positive realtionship between the car variables and mpg.
+
+## Summary Statistics on Suspension Coils
+As the design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch, the following results shows current manufacturing data conformance to this design specification for all manufacturing lots in total and each lot individually:
+
+Mean | Median | Variance | SD |Conformance | Rationale 
+---- | ------ | -------- | ---| ------------|---
+1498.78 |1500 | 62.29356 | 7.892627| Yes | Variance does not exceed 100 pounds per square inch
+
+Drilling down to the individual manufacturing lots, the results shows variance of 170 for Lot 3 which does not conform to the standard. Lot 1 and 2 conform to the standard with variance of 0.97 and 7.47 respectively.
+
