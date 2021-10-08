@@ -39,3 +39,14 @@ Mean | Median | Variance | SD |Conformance | Rationale
 
 Drilling down to the individual manufacturing lots, the results shows variance of 170 for Lot 3 which does not conform to the standard. Lot 1 and 2 conform to the standard with variance of 0.97 and 7.47 respectively.
 
+## T-Tests on Suspension Coils
+The t-test for PSI across all manufacturing lots showed that it is not statistically different from the population mean of 1,500 pounds per square inch as the p-value is 0.06 which is higher than the significance level (0.05).
+
+T-test result for different manufacturing lots:
+
+![tTestPerLot](tTestPerLot.png)
+Lot1 and Lot2 means are statistically  similar to the population's mean.
+Lot3 mean is statistically different from the population mean.
+
+
+
