@@ -48,5 +48,6 @@ T-test result for different manufacturing lots:
 Lot1 and Lot2 means are statistically  similar to the population's mean.
 Lot3 mean is statistically different from the population mean.
 
+## Study Design: MechaCar vs Competition
 
 
