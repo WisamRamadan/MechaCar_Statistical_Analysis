@@ -28,7 +28,7 @@ F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
 
 * The results show that vehicle_length, vehicle_weight and ground_clearance variables/coefficients provided a non-random amount of variance to the mpg values in the dataset.
 * Th slope of the linear model is not considered to be zero because p-value is much less than the significance level 0.05.
-* The linear model predict mpg of MechaCar prototypes effectively because r-squared value is 0.7 which indicated a strong positive realtionship between the car variables and mpg.
+* The linear model predicts mpg of MechaCar prototypes effectively because r-squared value is 0.7 which indicated a strong positive relationship between the car variables and mpg.
 
 ## Summary Statistics on Suspension Coils
 As the design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch, the following results shows current manufacturing data conformance to this design specification for all manufacturing lots in total and each lot individually:
@@ -51,8 +51,8 @@ Lot3 mean is statistically different from the population mean.
 ## Study Design: MechaCar vs Competition
 #### Description:
 This statistical study aims to quantify how the MechaCar performs against the competition. In particular, I will measure MechaCar performance in terms of fuel efficiency based on vehicle class.
-### Design
-the metric that  I will use is miles per galon (MPG) and the null and allternative hypothesis will be:
+#### Design
+the metric that  I will use is miles per gallon (MPG) and the null and alternative hypothesis will be:
 H0 : There is no statistical difference between MechaCar MPG mean and competitors mean.
 Ha : There is a statistical difference between MechaCar MPG mean and at least one competitor mean.
 
