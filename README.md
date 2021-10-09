@@ -49,5 +49,16 @@ Lot1 and Lot2 means are statistically  similar to the population's mean.
 Lot3 mean is statistically different from the population mean.
 
 ## Study Design: MechaCar vs Competition
+#### Description:
+This statistical study aims to quantify how the MechaCar performs against the competition. In particular, I will measure MechaCar performance in terms of fuel efficiency based on vehicle class.
+### Design
+the metric that  I will use is miles per galon (MPG) and the null and allternative hypothesis will be:
+H0 : There is no statistical difference between MechaCar MPG mean and competitors mean.
+Ha : There is a statistical difference between MechaCar MPG mean and at least one competitor mean.
 
+One-way ANOVA statistical test will be used to test the hypothesis because I want to compare the means of a continuous numerical variable across a number of groups.
+
+To run this test I will need the following data:
+1. MPG, vehicle class for MechaCar
+2. MPG, vehicle class for competitors
 
